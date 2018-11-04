@@ -13,10 +13,7 @@
 		2143CA0920E7BDA900AFB745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2143CA0220E7BDA800AFB745 /* Main.storyboard */; };
 		2143CA0A20E7BDA900AFB745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA0420E7BDA800AFB745 /* AppDelegate.m */; };
 		2143CA0B20E7BDA900AFB745 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA0620E7BDA900AFB745 /* ViewController.m */; };
-		2143CA2920E7C59600AFB745 /* multi_path_sploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA1220E7C59600AFB745 /* multi_path_sploit.c */; };
-		2143CA2A20E7C59600AFB745 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2143CA1620E7C59600AFB745 /* README */; };
 		2143CA2B20E7C59600AFB745 /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA1820E7C59600AFB745 /* offsets.m */; };
-		2143CA2C20E7C59600AFB745 /* vfs_sploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA1920E7C59600AFB745 /* vfs_sploit.c */; };
 		2143CA2D20E7C59600AFB745 /* kmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA1A20E7C59600AFB745 /* kmem.c */; };
 		2143CA2E20E7C59600AFB745 /* kutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA1F20E7C59600AFB745 /* kutils.c */; };
 		2143CA2F20E7C59600AFB745 /* nonce.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA2020E7C59600AFB745 /* nonce.c */; };
@@ -26,6 +23,8 @@
 		2143CA3320E7C59600AFB745 /* patchfinder64.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA2820E7C59600AFB745 /* patchfinder64.c */; };
 		2143CA3620E7C5FA00AFB745 /* noncereboot.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA3520E7C5FA00AFB745 /* noncereboot.c */; };
 		2143CA3920E7C80D00AFB745 /* unlocknvram.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA3720E7C80D00AFB745 /* unlocknvram.c */; };
+		568B41D9218EE0A300DBB2BE /* vfs_sploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 568B41D8218EE0A300DBB2BE /* vfs_sploit.c */; };
+		568B41DC218EE0BA00DBB2BE /* multi_path_sploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 568B41DA218EE0B800DBB2BE /* multi_path_sploit.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +39,9 @@
 		2143CA0620E7BDA900AFB745 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2143CA0720E7BDA900AFB745 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2143CA1020E7C59600AFB745 /* IOKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKit.h; sourceTree = "<group>"; };
-		2143CA1220E7C59600AFB745 /* multi_path_sploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = multi_path_sploit.c; sourceTree = "<group>"; };
 		2143CA1320E7C59600AFB745 /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
-		2143CA1420E7C59600AFB745 /* vfs_sploit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vfs_sploit.h; sourceTree = "<group>"; };
 		2143CA1520E7C59600AFB745 /* kmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kmem.h; sourceTree = "<group>"; };
-		2143CA1620E7C59600AFB745 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		2143CA1720E7C59600AFB745 /* multi_path_sploit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi_path_sploit.h; sourceTree = "<group>"; };
 		2143CA1820E7C59600AFB745 /* offsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = offsets.m; sourceTree = "<group>"; };
-		2143CA1920E7C59600AFB745 /* vfs_sploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vfs_sploit.c; sourceTree = "<group>"; };
 		2143CA1A20E7C59600AFB745 /* kmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kmem.c; sourceTree = "<group>"; };
 		2143CA1C20E7C59600AFB745 /* patchfinder64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patchfinder64.h; sourceTree = "<group>"; };
 		2143CA1E20E7C59600AFB745 /* exploit_additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exploit_additions.h; sourceTree = "<group>"; };
@@ -65,6 +59,10 @@
 		2143CA3520E7C5FA00AFB745 /* noncereboot.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = noncereboot.c; sourceTree = "<group>"; };
 		2143CA3720E7C80D00AFB745 /* unlocknvram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unlocknvram.c; sourceTree = "<group>"; };
 		2143CA3820E7C80D00AFB745 /* unlocknvram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unlocknvram.h; sourceTree = "<group>"; };
+		568B41D7218EE0A300DBB2BE /* vfs_sploit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vfs_sploit.h; path = noncereboot1131UI/exploit/empty_list/vfs_sploit.h; sourceTree = "<group>"; };
+		568B41D8218EE0A300DBB2BE /* vfs_sploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vfs_sploit.c; path = noncereboot1131UI/exploit/empty_list/vfs_sploit.c; sourceTree = "<group>"; };
+		568B41DA218EE0B800DBB2BE /* multi_path_sploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = multi_path_sploit.c; path = multi_path/multi_path_sploit.c; sourceTree = "<group>"; };
+		568B41DB218EE0BA00DBB2BE /* multi_path_sploit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = multi_path_sploit.h; path = multi_path/multi_path_sploit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,14 +138,11 @@
 		2143CA1120E7C59600AFB745 /* exploit */ = {
 			isa = PBXGroup;
 			children = (
-				2143CA1220E7C59600AFB745 /* multi_path_sploit.c */,
+				568B41D6218EE08D00DBB2BE /* empty_list */,
+				568B41D5218EE07B00DBB2BE /* multi_path */,
 				2143CA1320E7C59600AFB745 /* offsets.h */,
-				2143CA1420E7C59600AFB745 /* vfs_sploit.h */,
 				2143CA1520E7C59600AFB745 /* kmem.h */,
-				2143CA1620E7C59600AFB745 /* README */,
-				2143CA1720E7C59600AFB745 /* multi_path_sploit.h */,
 				2143CA1820E7C59600AFB745 /* offsets.m */,
-				2143CA1920E7C59600AFB745 /* vfs_sploit.c */,
 				2143CA1A20E7C59600AFB745 /* kmem.c */,
 			);
 			path = exploit;
@@ -182,6 +177,25 @@
 				2143CA2720E7C59600AFB745 /* kexecute.c */,
 			);
 			path = utilities;
+			sourceTree = "<group>";
+		};
+		568B41D5218EE07B00DBB2BE /* multi_path */ = {
+			isa = PBXGroup;
+			children = (
+				568B41DA218EE0B800DBB2BE /* multi_path_sploit.c */,
+				568B41DB218EE0BA00DBB2BE /* multi_path_sploit.h */,
+			);
+			name = multi_path;
+			sourceTree = "<group>";
+		};
+		568B41D6218EE08D00DBB2BE /* empty_list */ = {
+			isa = PBXGroup;
+			children = (
+				568B41D8218EE0A300DBB2BE /* vfs_sploit.c */,
+				568B41D7218EE0A300DBB2BE /* vfs_sploit.h */,
+			);
+			name = empty_list;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +255,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2143CA2A20E7C59600AFB745 /* README in Resources */,
 				2143CA0920E7BDA900AFB745 /* Main.storyboard in Resources */,
 				2143C9F220E7BD6A00AFB745 /* Assets.xcassets in Resources */,
 				2143CA0820E7BDA900AFB745 /* LaunchScreen.storyboard in Resources */,
@@ -261,10 +274,10 @@
 				2143CA2B20E7C59600AFB745 /* offsets.m in Sources */,
 				2143CA0B20E7BDA900AFB745 /* ViewController.m in Sources */,
 				2143CA3120E7C59600AFB745 /* exploit_additions.c in Sources */,
-				2143CA2C20E7C59600AFB745 /* vfs_sploit.c in Sources */,
-				2143CA2920E7C59600AFB745 /* multi_path_sploit.c in Sources */,
+				568B41D9218EE0A300DBB2BE /* vfs_sploit.c in Sources */,
 				2143CA2E20E7C59600AFB745 /* kutils.c in Sources */,
 				2143CA2F20E7C59600AFB745 /* nonce.c in Sources */,
+				568B41DC218EE0BA00DBB2BE /* multi_path_sploit.c in Sources */,
 				2143CA3320E7C59600AFB745 /* patchfinder64.c in Sources */,
 				2143CA3920E7C80D00AFB745 /* unlocknvram.c in Sources */,
 				2143CA0A20E7BDA900AFB745 /* AppDelegate.m in Sources */,
@@ -414,6 +427,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/noncereboot1131UI/headers\"";
 				INFOPLIST_FILE = noncereboot1131UI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,6 +455,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/noncereboot1131UI/headers\"";
 				INFOPLIST_FILE = noncereboot1131UI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
